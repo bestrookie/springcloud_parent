@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_02eureka_client" />
+        <module name="springcloud_01eureka_server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01eureka_server" target="8" />
+      <module name="springcloud_01eureka_server" target="8" />
+      <module name="springcloud_02eureka" target="8" />
+      <module name="springcloud_02eureka_client" target="8" />
+      <module name="springcloud_02eureka_client (1) (com.bestrookie)" target="8" />
+      <module name="springcloud_parent" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01eureka_server" options="-parameters" />
+      <module name="springcloud_01eureka_server" options="-parameters" />
+      <module name="springcloud_02eureka" options="-parameters" />
+      <module name="springcloud_02eureka_client" options="-parameters" />
+      <module name="springcloud_02eureka_client (1) (com.bestrookie)" options="-parameters" />
+      <module name="springcloud_parent" options="-parameters" />
+    </option>
+  </component>
+</project>

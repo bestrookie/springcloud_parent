@@ -1,0 +1,3 @@
+# Project exclude paths
+/springcloud_parent/springcloud_01eureka_server/target/
+/springcloud_parent/springcloud_02eureka_client/target/
