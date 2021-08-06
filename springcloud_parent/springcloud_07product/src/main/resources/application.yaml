@@ -1,9 +1,9 @@
 server:
-  port: 8082
+  port: 8686
 spring:
   application:
-    name: CONSULCLIENT
+    name: PRODUCT
   cloud:
     consul:
-      host: 127.0.0.1
+      host: localhost
       port: 8500

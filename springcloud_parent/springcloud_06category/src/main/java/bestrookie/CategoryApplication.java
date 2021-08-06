@@ -1,18 +1,19 @@
 package bestrookie;
 
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author bestrookie
- * @date 2021/8/3 6:00 下午
+ * @date 2021/8/6 10:23 上午
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-public class ConsulClientApplication {
+@EnableFeignClients
+public class CategoryApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConsulClientApplication.class,args);
+            SpringApplication.run(CategoryApplication.class,args);
     }
 }
